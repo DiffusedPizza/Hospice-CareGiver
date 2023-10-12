@@ -2149,7 +2149,7 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background: none;
 		border: solid 1px;
-		border-radius: 0;
+		border-radius: 8px;
 		color: inherit;
 		cursor: pointer;
 		display: inline-block;
@@ -2323,7 +2323,7 @@ input, select, textarea {
 		/* position: fixed; */
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		/* z-index: 10000; */
 	}
 
 		#header h1 {
@@ -2662,7 +2662,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			font-size: 0.8em;
-			line-height: 1em;
+			/* line-height: 1em; */
 		}
 
 			#footer .copyright a {
@@ -2920,7 +2920,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				display: none;
+				/* display: none; */
+				font-size: .75em;
 			}
 
 		/* Banner */
@@ -3303,7 +3304,7 @@ input, select, textarea {
 
 			#main {
 				background-size: 10em;
-				padding: 3.5em 0 2.5em 0;
+				padding: .5em 0 2.5em 0;
 			}
 
 			body.index #main {
